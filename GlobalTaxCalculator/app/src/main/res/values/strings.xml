@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Global Tax Calculator</string>
+    <string name="txtTitle">Country of Residence:</string>
+    <string name="btnCalculate">Calculate Tax</string>
+    <string name="editTxtTitle">Last Year\'s Income</string>
+    <string name="china">China</string>
+    <string name="sweden">Sweden</string>
+    <string name="usa">U.S.A.</string>
+    <string name="germany">Germany</string>
+
+</resources>

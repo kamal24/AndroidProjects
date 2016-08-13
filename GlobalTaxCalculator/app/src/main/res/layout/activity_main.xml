@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.udayton.globaltaxcalculator.MainActivity"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="@string/editTxtTitle"
+        android:layout_marginTop="@dimen/topMargin15dp"
+        android:layout_marginBottom="@dimen/margin5dp"
+        android:textSize="@dimen/textFieldTextSize"
+        android:inputType="number"
+        android:ems="10"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/txtTitle"
+        android:id="@+id/cof"
+        android:layout_marginBottom="@dimen/margin5dp"
+        android:textSize="@dimen/titleTextSize" />
+
+    <RadioGroup android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radGroup"
+        android:layout_margin="@dimen/margin5dp"
+        android:padding="@dimen/margin5dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/china"
+            android:id="@+id/china"
+            android:checked="true"
+            android:textSize="@dimen/radBtnTextSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/germany"
+            android:id="@+id/germany"
+            android:checked="false"
+            android:textSize="@dimen/radBtnTextSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sweden"
+            android:id="@+id/sweden"
+            android:checked="false"
+            android:textSize="@dimen/radBtnTextSize" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/usa"
+            android:id="@+id/usa"
+
+            android:checked="false"
+            android:textSize="@dimen/radBtnTextSize" />
+    </RadioGroup>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCalculate"
+        android:id="@+id/button"
+        android:layout_marginTop="@dimen/margin5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="@dimen/btnCaluclateTextSize"
+        android:layout_marginBottom="@dimen/margin5dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/resultMsg"
+
+        android:textSize="@dimen/txtResultTextSize"
+        android:layout_marginTop="@dimen/margin5dp"
+        android:layout_marginBottom="@dimen/margin5dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

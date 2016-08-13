@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Email App</string>
+
+    <string name="splash_title">Welcome to My App</string>
+
+    <string-array name="list_of_array">
+        <item>Send Email</item>
+        <item>Browser</item>
+    </string-array>
+</resources>

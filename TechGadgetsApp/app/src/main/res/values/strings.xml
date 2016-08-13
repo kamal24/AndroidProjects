@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tech Gadgets</string>
+    <string name="garmin_gps">Garmin nuvi 52LM GPS</string>
+    <string name="fitbit_wristband">Fitbit Charge Wristband</string>
+    <string name="samsung">Samsung Galaxy S6 Edge</string>
+    <string name="apple_watch">Apple Watch</string>
+    <string name="ipad_air2">Apple ipad Air 2</string>
+
+    <string name="open_gps_site">Open Garmin nuvi 52LM GPS Site</string>
+    <string name="open_wristband_site">Open Fitbit Charge Wristband Site</string>
+    <string name="open_samsung_site">Open Samsung Galaxy S6 Edge Site</string>
+    <string name="open_watch_site">Open Apple Watch Site</string>
+    <string name="open_ipad_air2_site">Open Apple ipad Air 2 Site</string>
+
+    <string-array name="attraction">
+        <item>Garmin nuvi 52LM GPS</item>
+        <item>Fitbit Charge Wristband</item>
+        <item>Samsung Galaxy S6 Edge</item>
+        <item>Apple Watch</item>
+        <item>Apple ipad Air2</item>
+    </string-array>
+</resources>
